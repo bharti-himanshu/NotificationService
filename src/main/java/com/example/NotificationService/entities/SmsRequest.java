@@ -1,5 +1,6 @@
 package com.example.NotificationServiceTry.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -9,6 +10,7 @@ import java.time.LocalDateTime;
 @Entity
 @Data
 @Builder
+@AllArgsConstructor
 @Table(name="sms_requests")
 public class SmsRequest {
     @Id

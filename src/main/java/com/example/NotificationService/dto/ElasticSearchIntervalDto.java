@@ -14,9 +14,8 @@ public class ElasticSearchIntervalDto {
     String scrollId;
 
     @Data
-    @Builder
     @AllArgsConstructor
-    class ElasticSearchIntervalHelper {
+    public class ElasticSearchIntervalHelper {
         String phoneNumber;
         LocalDateTime startTime;
         LocalDateTime endTime;

@@ -1,6 +1,5 @@
 package com.example.NotificationServiceTry.services;
 
-import com.example.NotificationServiceTry.Exceptions.BlackListedNumberException;
 import com.example.NotificationServiceTry.entities.ApiResponseEntity.ApiResponse;
 import com.example.NotificationServiceTry.entities.SmsRequest;
 import com.example.NotificationServiceTry.services.ElasticSearch.ElasticSearchService;

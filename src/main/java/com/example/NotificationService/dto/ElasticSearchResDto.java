@@ -1,6 +1,7 @@
 package com.example.NotificationServiceTry.dto;
 
 import com.example.NotificationServiceTry.entities.SmsRequest;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -10,6 +11,7 @@ import java.util.Map;
 
 @Data
 @Builder
+@AllArgsConstructor
 public class ElasticSearchResDto {
 
     Map<Integer, SmsRequest> data;

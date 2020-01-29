@@ -1,8 +1,8 @@
 package com.example.NotificationServiceTry.services.ElasticSearch;
 
-import com.example.NotificationServiceTry.dto.ScrollIdDto;
 import com.example.NotificationServiceTry.Exceptions.InvalidScrollIdException;
 import com.example.NotificationServiceTry.Exceptions.NoSearchResultException;
+import com.example.NotificationServiceTry.dto.ScrollIdDto;
 import com.example.NotificationServiceTry.entities.SmsRequest;
 import com.example.NotificationServiceTry.services.SmsCrudService;
 import org.elasticsearch.ElasticsearchException;
@@ -54,7 +54,7 @@ public class ElasticSearchService {
     }
 
 
-    public ScrollIdDto getAllSms(String prevScrollId,int limit) throws IOException, NoSearchResultException {
+    public ScrollIdDto getAllSms(String prevScrollId, int limit) throws IOException, NoSearchResultException {
 
 
         if(prevScrollId!=null) {

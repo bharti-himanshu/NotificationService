@@ -1,6 +1,7 @@
 package com.example.NotificationServiceTry.entities.SmsApi;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -8,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @JsonAutoDetect
+@AllArgsConstructor
 @Builder
 public class SmsApi {
 
@@ -31,7 +33,7 @@ public class SmsApi {
 
     @JsonAutoDetect
     @Data
-    @Builder
+    @AllArgsConstructor
     class Channels {
         private Sms sms;
 
@@ -42,8 +44,8 @@ public class SmsApi {
 
     }
     @JsonAutoDetect
-    @Builder
     @Data
+    @AllArgsConstructor
     class Destination {
         private List<String> msisdn = new ArrayList<>();
         private String correlationid;
@@ -57,8 +59,8 @@ public class SmsApi {
     }
 
     @JsonAutoDetect
-    @Builder
     @Data
+    @AllArgsConstructor
     public class Sms {
         private String text;
     }
