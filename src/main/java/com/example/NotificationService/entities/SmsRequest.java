@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.entities;
+package com.example.NotificationService.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

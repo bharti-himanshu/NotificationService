@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.entities.SmsApi;
+package com.example.NotificationService.entities.SmsApi;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import lombok.AllArgsConstructor;

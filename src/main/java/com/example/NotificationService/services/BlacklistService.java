@@ -1,8 +1,8 @@
-package com.example.NotificationServiceTry.services;
+package com.example.NotificationService.services;
 
-import com.example.NotificationServiceTry.dto.BlacklistNumbersDto;
-import com.example.NotificationServiceTry.entities.BlackList;
-import com.example.NotificationServiceTry.repositories.BlackListRepository;
+import com.example.NotificationService.dto.BlacklistNumbersDto;
+import com.example.NotificationService.entities.BlackList;
+import com.example.NotificationService.repositories.BlackListRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.config;
+package com.example.NotificationService.config;
 
 
 import org.apache.http.HttpHost;

@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.Exceptions;
+package com.example.NotificationService.Exceptions;
 
 public class BlackListedNumberException extends Exception {
 }

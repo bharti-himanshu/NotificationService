@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.config;
+package com.example.NotificationService.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

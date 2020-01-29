@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.Exceptions;
+package com.example.NotificationService.Exceptions;
 
 import org.elasticsearch.ElasticsearchException;
 

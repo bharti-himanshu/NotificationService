@@ -1,11 +1,11 @@
-package com.example.NotificationServiceTry.controllers;
+package com.example.NotificationService.controllers;
 
-import com.example.NotificationServiceTry.Exceptions.NoSearchResultException;
-import com.example.NotificationServiceTry.dto.ElasticSearchIntervalDto;
-import com.example.NotificationServiceTry.dto.ElasticSearchResDto;
-import com.example.NotificationServiceTry.dto.ScrollIdDto;
-import com.example.NotificationServiceTry.services.SmsCrudService;
-import com.example.NotificationServiceTry.services.ElasticSearch.ElasticSearchService;
+import com.example.NotificationService.Exceptions.NoSearchResultException;
+import com.example.NotificationService.dto.ElasticSearchIntervalDto;
+import com.example.NotificationService.dto.ElasticSearchResDto;
+import com.example.NotificationService.dto.ScrollIdDto;
+import com.example.NotificationService.services.SmsCrudService;
+import com.example.NotificationService.services.ElasticSearch.ElasticSearchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

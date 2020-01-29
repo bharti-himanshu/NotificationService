@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.entities.ApiResponseEntity;
+package com.example.NotificationService.entities.ApiResponseEntity;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import lombok.AllArgsConstructor;

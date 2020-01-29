@@ -1,8 +1,8 @@
-package com.example.NotificationServiceTry.services;
+package com.example.NotificationService.services;
 
-import com.example.NotificationServiceTry.dto.SmsCreateDto;
-import com.example.NotificationServiceTry.entities.SmsRequest;
-import com.example.NotificationServiceTry.repositories.SmsRequestRepository;
+import com.example.NotificationService.dto.SmsCreateDto;
+import com.example.NotificationService.entities.SmsRequest;
+import com.example.NotificationService.repositories.SmsRequestRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

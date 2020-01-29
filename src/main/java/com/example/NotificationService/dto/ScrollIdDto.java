@@ -1,6 +1,6 @@
-package com.example.NotificationServiceTry.dto;
+package com.example.NotificationService.dto;
 
-import com.example.NotificationServiceTry.entities.SmsRequest;
+import com.example.NotificationService.entities.SmsRequest;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

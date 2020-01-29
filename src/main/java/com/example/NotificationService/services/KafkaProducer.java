@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.services;
+package com.example.NotificationService.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;

@@ -1,10 +1,10 @@
-package com.example.NotificationServiceTry.services.ElasticSearch;
+package com.example.NotificationService.services.ElasticSearch;
 
-import com.example.NotificationServiceTry.Exceptions.InvalidScrollIdException;
-import com.example.NotificationServiceTry.Exceptions.NoSearchResultException;
-import com.example.NotificationServiceTry.dto.ScrollIdDto;
-import com.example.NotificationServiceTry.entities.SmsRequest;
-import com.example.NotificationServiceTry.services.SmsCrudService;
+import com.example.NotificationService.Exceptions.InvalidScrollIdException;
+import com.example.NotificationService.Exceptions.NoSearchResultException;
+import com.example.NotificationService.dto.ScrollIdDto;
+import com.example.NotificationService.entities.SmsRequest;
+import com.example.NotificationService.services.SmsCrudService;
 import org.elasticsearch.ElasticsearchException;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;

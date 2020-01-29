@@ -1,4 +1,4 @@
-package com.example.NotificationServiceTry.dto;
+package com.example.NotificationService.dto;
 
 import lombok.Data;
 

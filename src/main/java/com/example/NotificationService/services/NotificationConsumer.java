@@ -1,8 +1,8 @@
-package com.example.NotificationServiceTry.services;
+package com.example.NotificationService.services;
 
-import com.example.NotificationServiceTry.entities.ApiResponseEntity.ApiResponse;
-import com.example.NotificationServiceTry.entities.SmsRequest;
-import com.example.NotificationServiceTry.services.ElasticSearch.ElasticSearchService;
+import com.example.NotificationService.entities.ApiResponseEntity.ApiResponse;
+import com.example.NotificationService.entities.SmsRequest;
+import com.example.NotificationService.services.ElasticSearch.ElasticSearchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

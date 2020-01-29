@@ -1,6 +1,6 @@
-package com.example.NotificationServiceTry.repositories;
+package com.example.NotificationService.repositories;
 
-import com.example.NotificationServiceTry.entities.SmsRequest;
+import com.example.NotificationService.entities.SmsRequest;
 import org.springframework.data.repository.CrudRepository;
 
 

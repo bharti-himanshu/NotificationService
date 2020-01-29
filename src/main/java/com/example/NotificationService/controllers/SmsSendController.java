@@ -1,12 +1,12 @@
-package com.example.NotificationServiceTry.controllers;
+package com.example.NotificationService.controllers;
 
 
-import com.example.NotificationServiceTry.dto.SmsCreateDto;
-import com.example.NotificationServiceTry.dto.SmsRequestResDto;
-import com.example.NotificationServiceTry.services.SmsCrudService;
-import com.example.NotificationServiceTry.dto.SmsCreateResDto;
-import com.example.NotificationServiceTry.entities.SmsRequest;
-import com.example.NotificationServiceTry.services.KafkaProducer;
+import com.example.NotificationService.dto.SmsCreateDto;
+import com.example.NotificationService.dto.SmsRequestResDto;
+import com.example.NotificationService.services.SmsCrudService;
+import com.example.NotificationService.dto.SmsCreateResDto;
+import com.example.NotificationService.entities.SmsRequest;
+import com.example.NotificationService.services.KafkaProducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

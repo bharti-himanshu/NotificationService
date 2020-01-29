@@ -1,9 +1,9 @@
-package com.example.NotificationServiceTry.ExceptionHandler;
+package com.example.NotificationService.ExceptionHandler;
 
-import com.example.NotificationServiceTry.dto.FailureResponseDto;
-import com.example.NotificationServiceTry.dto.InvalidScrollIdDto;
-import com.example.NotificationServiceTry.Exceptions.InvalidScrollIdException;
-import com.example.NotificationServiceTry.Exceptions.NoSearchResultException;
+import com.example.NotificationService.dto.FailureResponseDto;
+import com.example.NotificationService.dto.InvalidScrollIdDto;
+import com.example.NotificationService.Exceptions.InvalidScrollIdException;
+import com.example.NotificationService.Exceptions.NoSearchResultException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
